@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  resources :readings
+
   resources :catogories
 
   resources :trackings
