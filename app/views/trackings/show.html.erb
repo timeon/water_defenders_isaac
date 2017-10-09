@@ -1,0 +1,24 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @tracking.name %>
+</p>
+
+<p>
+  <strong>Value:</strong>
+  <%= @tracking.value %>
+</p>
+
+<p>
+  <strong>Units:</strong>
+  <%= @tracking.units %>
+</p>
+
+<p>
+  <strong>Catogory:</strong>
+  <%= @tracking.catogory %>
+</p>
+
+<%= link_to 'Edit', edit_tracking_path(@tracking) %> |
+<%= link_to 'Back', trackings_path %>
